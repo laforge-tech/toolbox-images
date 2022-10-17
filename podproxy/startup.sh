@@ -1,5 +1,9 @@
 #!/bin/bash
 
+mkdir .ssh
+chmod 700 .ssh
+cp config/authorized_keys .ssh
+chmod 400 .ssh/authorized_keys
 
 ssh-keygen -q -N "" -t dsa -f /app/keys/ssh_host_dsa_key
 ssh-keygen -q -N "" -t rsa -b 4096 -f /app/keys/ssh_host_rsa_key
