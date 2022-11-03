@@ -1,0 +1,11 @@
+dn: dc=laforge,dc=tech
+objectClass: dcObject
+objectClass: organization
+dc: laforge
+o: laforge.tech"
+description: "laforge.tech"
+
+dn: cn=admin,dc=laforge,dc=tech
+objectClass: organizationalRole
+cn: admin
+description: Directory Admin
