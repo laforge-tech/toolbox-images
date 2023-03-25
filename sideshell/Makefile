@@ -1,5 +1,5 @@
 DOCKER_IMG=laforgetech/sideshell
-DOCKER_TAG=0.0.1
+DOCKER_TAG=0.0.2
 
 image:
 	docker build -t ${DOCKER_IMG}:${DOCKER_TAG} -t  ${DOCKER_IMG}:latest .
